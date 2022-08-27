@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            align-items: center;
+            font-family: cursive;
+            background: black;
+        }
+        .btn{
+            position: relative;
+            text-align: center;
+            width: 250px;
+            padding: 40px;
+            font-weight: 400;
+            font-size: 30px;
+            letter-spacing: 10px;
+            cursor: pointer;
+            border: 5px solid orangered;
+            transition: 1.5;
+            color: orangered;
+            border-radius: 100px;
+        }
+
+        .btn:hover{
+            box-shadow: 0 5px 50px 0 orangered inset, 0 5px 50px 0 orangered,
+                        0 5px 50px 0 orangered inset, 0 5px 50px 0 orangered;
+
+            text-shadow: 0 0 5px orangered, 0 0 5px orangered;
+        }
+    </style>
+</head>
+<body>
+    <div class="btn">button</div>
+</body>
+</html>
